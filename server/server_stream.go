@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/MilkiasTonji/grpc-test/proto"
+	pb "github.com/MilkiasTonji/gRPC-go/proto"
 )
 
 func (s *helloServer) SayHelloServerStreaming(req *pb.NamesList, stream pb.GreetService_SayHelloServerStreamingServer) error {

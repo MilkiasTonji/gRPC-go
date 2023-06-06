@@ -1,4 +1,4 @@
-module github.com/MilkiasTonji/grpc-test
+module github.com/MilkiasTonji/gRPC-go
 
 go 1.20
 
